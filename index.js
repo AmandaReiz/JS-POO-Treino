@@ -1,11 +1,11 @@
 PrepTorrada("Amanda", "queijo", 5.50) //exe
-function PrepTorrada (nome,complemento,preco) { //() função: ação e dentro de () fica os paramêtros
+function PrepTorrada (nome,complemento,preco) { //() função com paramêtros 
     console.log("A torrada da", nome,"está sendo preparada...")
     console.log("torrada de", complemento,"está pronta!") 
     console.log("valor total é:", preco)
 }
 
-function insistirLigacao (tentativas) {
+function insistirLigacao (tentativas) { //funcao + estrutura de repetição 
     for (tentativa = 1; tentativa <= 3; tentativa++) {
         console.log("Minha tentativa de ligação é:", tentativa)
 
