@@ -1,7 +1,7 @@
 {
   "name": "mario-kart",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simulador de corridas estilo Mario Kart baseado em lógica de dados e executado via terminal (CLI).",
   "main": "./src/index.js",
   "scripts": {
     "start": "node ./src/index.js"
